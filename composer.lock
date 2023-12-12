@@ -4,8 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9c491b8531eec05ba41a11d9276a5749",
+    "content-hash": "51fbe31e106c33fd5350432ca50ed4e1",
     "packages": [
+        {
+            "name": "blazephp/blaze",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blazephps/blaze.git",
+                "reference": "57d8626b3d952b5272a37000e35d868459613c2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blazephps/blaze/zipball/57d8626b3d952b5272a37000e35d868459613c2a",
+                "reference": "57d8626b3d952b5272a37000e35d868459613c2a",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.8",
+                "symfony/console": "^6.3",
+                "symfony/var-dumper": "^6.3",
+                "vlucas/phpdotenv": "^5.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.4"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "BlazePHP\\App\\": "app/",
+                    "BlazePHP\\Blaze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "HansenKhi",
+                    "email": "hansenkhyx@gmail.com"
+                }
+            ],
+            "description": "BlazePHP. Amazingly Fast",
+            "support": {
+                "issues": "https://github.com/blazephps/blaze/issues",
+                "source": "https://github.com/blazephps/blaze/tree/1.0.0"
+            },
+            "time": "2023-10-17T12:55:04+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.11.0",
